@@ -1,0 +1,94 @@
+body,
+html,
+#root {
+  height: 100%;
+  /* background-color: hsl(38, 53%, 81%); */
+  background: linear-gradient(
+    rgba(255, 0, 0, 0.45), 
+    rgba(315, 212, 707, 0.45)
+  ), url('./random_pics.png');
+  background-size:  cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+html {
+  font-size: 18px;
+}
+
+h1 {
+  padding: .77rem 0;
+  /* background-color: #000; */
+  /* text-align: right; */
+  /* justify-content: space-between; */
+  font-family: 'Kumar One', cursive;
+  font-size: 1.88rem;
+  color: #9DACFF;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #E94F37;
+  /* letter-spacing: 5px; */
+}
+
+h2 {
+  font-family: 'Kumar One', cursive;
+  font-size: 1.55rem;
+}
+
+.screen{
+  display: flex;
+  justify-content: space-around ;
+  padding: 0 3rem;
+  background-color: #000;
+  
+}
+
+.greetings{
+  color: #F6F7EB;
+  font-family: 'Kantumruy Pro', sans-serif;
+  padding: .77rem 0;
+  font-weight: 200;
+  letter-spacing: 10px;
+  /* font-size: 48px; */
+  /* color: #000; */
+}
+
+.App {
+  height: 100%;
+  padding: 0 17% 10% 17%;
+  /* background-image: url('./random_pics.png');
+  background-size:  cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-weight: 500;
+  color: #F6F7EB;
+  /* font-size: 18px; */
+  
+}
+
+.App-results {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menuBtn{
+  cursor: pointer;
+  color: #E94F37;
+  background-color: transparent;
+  border: transparent;
+  
+}
+
+.menuBtn:hover {
+  color: #9DACFF;
+  /* color: #000; */
+}
+
+@media only screen and (max-width: 1020px) {
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+}
