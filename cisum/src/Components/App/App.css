@@ -3,13 +3,13 @@ html,
 #root {
   height: 100%;
   /* background-color: hsl(38, 53%, 81%); */
-  background: linear-gradient(
+  /* background: linear-gradient(
     rgba(255, 0, 0, 0.45), 
     rgba(315, 212, 707, 0.45)
   ), url('./random_pics.png');
   background-size:  cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 
 }
 
@@ -33,6 +33,9 @@ h1 {
 h2 {
   font-family: 'Kumar One', cursive;
   font-size: 1.55rem;
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000; */
+  letter-spacing: 2px;
 }
 
 .screen{
@@ -56,10 +59,13 @@ h2 {
 .App {
   height: 100%;
   padding: 0 17% 10% 17%;
-  /* background-image: url('./random_pics.png');
+  background: linear-gradient(
+    rgba(255, 0, 0, 0.45), 
+    rgba(315, 212, 707, 0.45)
+  ), url('./random_pics.png');
   background-size:  cover;
   background-position: center;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   font-family: 'Kantumruy Pro', sans-serif;
   font-weight: 500;
   color: #F6F7EB;
